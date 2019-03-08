@@ -13,7 +13,7 @@
 <body>
     <header>
 
-        <h1>Marvel Dynamics Survey</h1>
+        <h1 id="title">Marvel Dynamics Survey</h1>
 
     </header>
 
@@ -26,10 +26,10 @@
             <form action="" id="survey-form">
                 <div class="row">
                     <div class="labels">
-                      <label for="name" id="name-label">Name</label>  
+                        <label for="name" id="name-label">Name</label>
                     </div>
                     <div class="content-right">
-                       <input type="text" id="name" placeholder="E.g John Doe"  class="userDetails" required> 
+                        <input type="text" id="name" placeholder="E.g John Doe" class="userDetails" required>
                     </div>
                 </div>
 
@@ -47,7 +47,8 @@
                         <label for="age" id="number-label">Age</label>
                     </div>
                     <div class="content-right">
-                        <input type="number" id="number" placeholder="Enter Your Age E.g 21" class="userDetails" required min="1" maxlength="120">
+                        <input type="number" id="number" placeholder="Enter Your Age E.g 21" class="userDetails"
+                            required min="1" max="120">
                     </div>
                 </div>
 
@@ -104,45 +105,45 @@
                         <label for="likes">What do you most like in your workplace? <br>(select all that apply)</label>
                     </div>
                     <div class="content-right">
-                       <ul id="likes-list">
-                           <li><label for="">
-                                Cool Projects
-                                <input type="checkbox" name="likes" id="">
-                            </label></li>
+                        <ul id="likes-list">
+                            <li><label for="">
+                                    Cool Projects
+                                    <input type="checkbox" name="likes" id="" value="1">
+                                </label></li>
                             <li>
                                 <label for="">
                                     Flexible Working Hours
-                                    <input type="checkbox" name="likes">
+                                    <input type="checkbox" name="likes" value="2">
                                 </label>
                             </li>
 
                             <li>
                                 <label for="">
                                     Friendly Environment
-                                    <input type="checkbox" name="likes" id="">
+                                    <input type="checkbox" name="likes" id="" value="3">
                                 </label>
                             </li>
                             <li>
                                 Professionalism
-                                <input type="checkbox" name="likes">
+                                <input type="checkbox" name="likes" value="4">
                             </li>
                             <li>
                                 Internet
-                                <input type="checkbox" name="likes" id="">
+                                <input type="checkbox" name="likes" id="" value="5">
                             </li>
                             <li>
                                 They Love Thee Arsenal
-                                <input type="checkbox" name="likes" id="">
+                                <input type="checkbox" name="likes" id="" value="6">
                             </li>
                             <li>
                                 The Cafeteria is wiiid
-                                <input type="checkbox" name="likes" id="">
+                                <input type="checkbox" name="likes" id="" value="7">
                             </li>
                             <li>
-                                The Boss 
-                                <input type="checkbox" name="likes" id="">
+                                The Boss
+                                <input type="checkbox" name="likes" id="" value="8">
                             </li>
-                       </ul>  
+                        </ul>
                     </div>
                 </div>
 
@@ -162,7 +163,6 @@
             </form>
         </section>
     </div>
-
 
 </body>
 
