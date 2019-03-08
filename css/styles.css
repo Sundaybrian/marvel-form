@@ -140,3 +140,15 @@ button#submit:hover{
 
     
 }
+
+@media screen and (min-width:720px){
+    
+    input.userDetails,textarea{
+        width:100%;
+    }
+
+    select{
+        width:90%;
+    }
+
+}
