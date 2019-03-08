@@ -126,13 +126,16 @@ button#submit:hover{
 
     .content-right{
         float: left;
-        widows: 80%;
+        width: 80%;
     }
 
-    input.userDetails{
+    input.userDetails,textarea{
         width:100%;
     }
 
+    select{
+        width:90%;
+    }
 
 
     
