@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Marvel Survey</title>
+    <link href="https://fonts.googleapis.com/css?family=Marvel" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+
+        <h1>Marvel Survey</h1>
+
+    </header>
+
+    <div id="main">
+        <section>
+            <p id="description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut assumenda dolorem commodi beatae quasi corrupti laudantium, veniam quae, illum, incidunt harum iure nihil delectus ad natus asperiores! Enim, quae mollitia.
+            </p>
+
+            <form action="" id="survey-form">
+                <div class="row">
+                    <div class="labels">
+                      <label for="name" id="name-label">Name</label>  
+                    </div>
+                    <div class="content-right">
+                       <input type="text" id="name" placeholder="E.g John Doe"  class="userDetails" required> 
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="labels">
+                        <label for="email" id="email-label">Email</label>
+                    </div>
+                    <div class="content-right">
+                        <input type="email" id="email" placeholder="JohnDoe@gmail.com" class="userDetails" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="labels">
+                        <label for="age" id="number-label">Age</label>
+                    </div>
+                    <div class="content-right">
+                        <input type="number" id="number" placeholder="Enter Your Age E.g 21" class="userDetails" required min="1" maxlength="120">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="labels">
+                        <label for="role" id="role-label">
+                            Which role do you have in your Company?
+                        </label>
+                    </div>
+                    <div class="content-right">
+                        <select name="role" id="dropdown">
+                            <option disabled>Select an option</option>
+                            <option value="Intern">Intern</option>
+                            <option value="FrontEnd">FrontEnd Developer</option>
+                            <option value="BackEnd">BackEnd Developer</option>
+                            <option value="FullStack">FullStack Developer</option>
+                            <option value="Designer">Designer</option>
+                            <option value="Android">Android Developer</option>
+                            <option value="3D">3D Artist</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="labels">
+                        <label for="toughness">
+                            How hard/demanding is the work you do at the Company?
+                        </label>
+                    </div>
+                    <div class="content-right">
+                        <ul id="toughness-list">
+                            <li>
+                                <label>Easy
+                                    <input type="radio" value="1" name="radio-btns">
+                                </label>
+                            </li>
+
+                            <li>
+                                <label>Hard
+                                    <input type="radio" value="2" name="radio-btns">
+                                </label>
+                            </li>
+                            <li>
+                                <label>Very Hard
+                                    <input type="radio" value="3" name="radio-btns">
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="labels">
+                        <label for="likes">What do you most like in your workplace? <br>(select all that apply)</label>
+                    </div>
+                    <div class="content-right">
+                       <ul id="likes-list">
+                           <li><label for="">
+                                Cool Projects
+                                <input type="checkbox" name="likes" id="">
+                            </label></li>
+                            <li>
+                                <label for="">
+                                    Flexible Working Hours
+                                    <input type="checkbox" name="likes">
+                                </label>
+                            </li>
+
+                            <li>
+                                <label for="">
+                                    Friendly Environment
+                                    <input type="checkbox" name="likes" id="">
+                                </label>
+                            </li>
+                            <li>
+                                Professionalism
+                                <input type="checkbox" name="likes">
+                            </li>
+                            <li>
+                                Internet
+                                <input type="checkbox" name="likes" id="">
+                            </li>
+                            <li>
+                                They Love Thee Arsenal
+                                <input type="checkbox" name="likes" id="">
+                            </li>
+                            <li>
+                                The Cafeteria is wiiid
+                                <input type="checkbox" name="likes" id="">
+                            </li>
+                            <li>
+                                The Boss 
+                                <input type="checkbox" name="likes" id="">
+                            </li>
+                       </ul>  
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="labels">
+                        <label for="comments">Any Comments or Suggestion to improve the workplace atmosphere?</label>
+                    </div>
+                    <div class="content-right">
+                        <textarea name="comment" id="comments" cols="30" rows="10" placeholder="Enter Your Suggestions here..."></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="labels"></div>
+                    <div class="content-right"></div>
+                </div>
+                <button id="submit" type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+
+
+</body>
+
+</html>

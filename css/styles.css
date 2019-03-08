@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Marvel', sans-serif;
+}
+
+html,
+body {
+    background: #111111;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    color: floralwhite;
+    min-width: 320px;
+}
+
+header h1 {
+    color: #39b54a;
+    font-weight:bold;
+}
+
+#main {
+    /* background: #221f1f; */
+    background: rgb(7,53,66);
+    margin:0 auto;
+    border:2px solid #39b54a;
+    padding: 10px;
+    border-radius: 4px;
+   
+}
+
+.labels{
+    width: 50%;
+    display: inline-block;
+    text-align:right;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.content-right{
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    margin-left:10px;
+    width: 45%;
+    margin-top: 5px;
+}
+
+input.userDetails,textarea{
+    background: linear-gradient(135deg,rgb(0,42,54),rgb(7,53,66));
+    width: 200px;
+    height: 35px;
+    color: #ffff;
+    border:1px solid #c0c0c0;
+  
+}
+
+input.userDetails:focus, textarea:focus{
+    border-bottom: 3px solid #ffcc00;
+   
+}
+
+#main:hover,input.userDetails:hover,button#submit:hover, textarea:hover{
+    border:1px solid #fff;
+}
+
+::placeholder{
+    color: #fb3;
+    color:#39b54a;
+    font-size:1.2em;
+    padding: 5px;
+}
+
+select#dropdown{
+    width: 200px;
+    height: 35px;
+    border:1px solid #c0c0c0;
+    background: rgb(0,42,54);
+    color:#fff; 
+    font-size:1.2em;
+}
+
+
+input[type="checkbox"],input[type="radio"]{
+float: left;
+
+}
+
+ul li{
+    list-style: none;
+    margin-bottom: 10px;
+    margin-left: 10px;
+   
+}
+
+textarea#comments{
+    height: 70px;
+    resize: both;
+}
+
+button#submit{
+    width: 100px;
+    height:45px;
+    background: #39b54a;
+    border: 2px solid #ccc;
+    padding: 5px;
+    font-weight: bold;
+
+
+}
